@@ -91,22 +91,22 @@
 <joint name="Rev1" type="continuous">
   <origin xyz="0.053859 -0.06 0.049562" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="wheel_2_1"/>
-  <axis xyz="0.0 -1.0 -0.0"/>
+  <child link="rev 1"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Rev2" type="continuous">
   <origin xyz="0.0548 0.06 0.050397" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="wheel_1_1"/>
-  <axis xyz="-0.0 1.0 0.0"/>
+  <child link="rev 2"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Rev3" type="continuous">
   <origin xyz="0.194976 0.001512 0.07899" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="revert_1"/>
-  <axis xyz="0.0 -0.0 1.0"/>
+  <axis xyz="0.0 0.0 1.0"/>
 </joint>
 
 </robot>
